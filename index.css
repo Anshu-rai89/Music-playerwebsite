@@ -21,10 +21,18 @@ button:hover
       overflow: hidden;
     }
     .zoomin img:hover {
-      width: 100%;
-      height: 105%;
+      background-image: url('./images/play.jpeg');
     }
-.horizontal-list {
+.header-horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.horizontal-list
+{
     list-style: none;
     padding-left: 0px;
     margin: 0px;
@@ -32,7 +40,7 @@ button:hover
 
 .horizontal-list li {
     display: inline-block;
-    margin: 0px 10px 15px 0px;
+    margin: 0px 2% 2% 0px;
     font-weight: 100;
     font-size: 0.9rem;
 }
@@ -57,6 +65,7 @@ button:hover
     max-height: 60rem;
     overflow-y: scroll;
     overflow-x: hidden;
+    
 }
 
 .artiest-name
@@ -94,13 +103,14 @@ textarea {
 {
 	height: 60px;
 	width: 100%;
-	position: relative;
+    position: relative;
+    display: flex;
 }
 
 #header-logo
 {  margin-left: 20px;
 	height: 60px;
-	width: 80px;
+	width: 10%;
 	border-radius:100px;
 	background-image: url("https://techcrunch.com/wp-content/uploads/2014/11/beats-angled.png?w=730&crop=1");
 	background-size: cover;
@@ -112,7 +122,7 @@ textarea {
 #header-title
 {   margin-left: -18px;
 	height: 60px;
-	width: 80px;
+	width: 10%;
 	border: 3px solid #0C1027;
 	vertical-align: top;
 	margin-top: 10px;
@@ -122,7 +132,7 @@ textarea {
 {
 	 margin-left: 20px;
 	height: 60px;
-	width: 80px;
+	width: 10%;
 	border: 3px solid #0C1027;
 	vertical-align: top;
 
@@ -130,9 +140,9 @@ textarea {
 
 #header-search
 {
-	margin-left: 450px;
+	margin-left: 15%;
 	height: 40px;
-	width: 250px;
+	width: 30%;
 	background-color: #12193E;
 	border-radius: 16px;
 	margin-top: 8px;
@@ -140,19 +150,14 @@ textarea {
 	vertical-align: top;
 }
 
-#mic-icon
-{   margin-left: -20px;
-	height: 30px;
-	width: 30px;
-	display: inline-block;
-}
+
 
 
 #notification
 
 {   margin-left: 10px;
 	height: 60px;
-	width: 60px;
+	width: 3%;
 	vertical-align: top;
 	border: 3px solid #0C1027;
 }
@@ -163,7 +168,7 @@ textarea {
 	height: 60px;
 	width:80px;
 	margin-left: 14px;
-	background-image: url("https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-9/47384249_1426867447449102_5806045200002318336_n.jpg?_nc_cat=106&_nc_oc=AQmWXvwjq4FZV_s4y2eP_-cTkh6_c7WiibwrCSKHwkjfulcZz26Qxj2ecHa4ChCYiWI&_nc_ht=scontent.fccu1-1.fna&oh=5a131d9ca7aa620c5806428b42c96095&oe=5E2682A8");
+	background-image: url("./images/IMG_20181120_110104.jpg");
 	background-size: cover;
 	border-radius: 50px;
 	border: 3px solid #0C1027;
@@ -178,7 +183,7 @@ textarea {
 #main-section
 {
 	height: 90%;
-	width: 70%;
+	width: 65%;
 	display: inline-block;
 	border: 3px solid #0C1027;
 
@@ -196,10 +201,9 @@ textarea {
 #div2
 {
 	height: 200px;
-	width: 69%;
-	margin:20px;
+	width: 65%;
 	border: 3px solid #0C1027;
-
+    
 	position: absolute;
 }
 
@@ -223,29 +227,33 @@ textarea {
 #Latest-Release
 {
 	height: 260px;
-	width: 100%;
+	width: 90%;
 	margin-top:300px;
-	margin-left: 20px;
+    margin-left: 20px;
+    
 }
 
 #song_img
 {
     display: inline-block;
     height: 100%;
-    width: 30%;
+    width: 25%;
    /* background-color: blue;*/
-   	border: 1px solid #0C1027;
-
+   	border: 2px solid #0C1027;
+    box-shadow: 1px 1px 12px 1px;
 
     overflow: hidden;
 }
+
+/* on song image hover  */
+ 
 
 
 #song-name
 {
     display: inline-block;
     height: 100%;
-    width: 30%;
+    width: 25%;
     overflow: hidden;
 
 }
@@ -255,9 +263,9 @@ textarea {
 {
     display: inline-block;
     height: 100%;
-    width: 30%;
+    width: 25%;
     
-    margin-left: 35px;
+    margin-left: 6%;
     vertical-align: top;
 
     overflow: hidden;
@@ -265,7 +273,7 @@ textarea {
 
 #song_info
 { height: 80px;
-   width:48%;
+   width:40%;
   margin-top: -10px;
 }
 
@@ -290,6 +298,12 @@ textarea {
 	color: white;
 }
 
+#song_img:hover
+{
+       background-image: url('./images/play.jpeg');
+       background-size:'contain';
+}
+
 
 /* Popular Artiest */
 
@@ -298,14 +312,16 @@ textarea {
 
  height: 180px;
  width: 100%;
- margin: 20px;
+ margin: 2%;
+ margin-bottom: 30px;
+ 
 }
 
 #artist_img
 { 
 	height: 120px;
 	width:15%;
-	margin:2px;
+	margin:1%;
 	border-radius: 100px;
 	border: 1px solid #0C1027;
 
@@ -333,15 +349,15 @@ textarea {
 { 
 height: 180px;
  width: 100%;
- margin: 20px;
+ margin: 2%;
  background-color: #101642;
 }
 
 #type
 {  
     margin-top: 25px;
-    height: 120px;
-	width: 120px;
+    height: 90px;
+	width: 15%;
 	margin-right: 10px;
 	background-image: url("https://www.amoyshare.com/asset/article/online-radio-stations/image/online-radio-stations-inner.png");
 	background-size: cover;
@@ -351,8 +367,8 @@ height: 180px;
      margin-top: 25px;
     background-image: url("https://i.ytimg.com/vi/elNCDGKrLEg/maxresdefault.jpg");
    background-size: cover;
-	height: 120px;
-	width:15%;
+	height: 90px;
+	width:12%;
 	border-radius: 100px;
  	border: 1px solid #0C1027;
  	vertical-align: top;
@@ -364,8 +380,8 @@ height: 180px;
 {
     background-image: url("https://www.magneticmag.com/.image/t_share/MTMzMDU4MzUzOTIzNTI5MTgy/best-tropical-house--chill-music-week-39.jpg");
    background-size: cover;
-	height: 120px;
-	width:15%;
+	height: 90px;
+	width:12%;
 	border-radius: 100px;
  	border: 1px solid #0C1027;
  	 	vertical-align: top;
@@ -377,8 +393,8 @@ height: 180px;
 {
     background-image: url("https://images.shape.mdpcdn.com/sites/shape.com/files/styles/taxonomy_recent_item/public/dwayne-johnson-the-rock-workout-playlist.jpg?itok=37_69JJ-");
    background-size: cover;
-	height: 120px;
-	width:15%;
+	height: 90px;
+	width:12%;
 	border-radius: 100px;
  	border: 1px solid #0C1027;
  	 	vertical-align: top;
@@ -389,8 +405,8 @@ height: 180px;
 {
     background-image: url("https://images.unsplash.com/photo-1519326773765-3ae3b02c44cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
    background-size: cover;
-	height: 120px;
-	width:15%;
+	height: 90px;
+	width:12%;
 	border-radius: 100px;
  	border: 1px solid #0C1027;
  	 	vertical-align: top;
@@ -402,8 +418,8 @@ height: 180px;
 {
     background-image: url("data:image/jpeg;base64,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");
    background-size: cover;
-	height: 120px;
-	width:15%;
+	height: 90px;
+	width:12%;
 	border-radius: 100px;
  	border: 1px solid #0C1027;
  	 	vertical-align: top;
@@ -422,7 +438,7 @@ height: 180px;
 {
 	height: 150px;
 	width:100%;
-	margin: 20px;
+	
 }
 
 #music_genre1
@@ -431,8 +447,7 @@ height: 180px;
 	width: 30%;
 	background-image: url("https://mixmag.net/assets/uploads/images/_full/fabric-room-one-credit-Only-By-Nght.jpg");
 	background-size: cover;
-	border: 3px solid #0C1027;
-	margin-left: 10px;
+    border: 3px solid #0C1027;
 }
 
 #music_genre2
@@ -442,7 +457,6 @@ height: 180px;
 	background-image: url("https://legismusic.com/wp-content/uploads/2016/09/musica-electronica-sin-copyright-1.jpg");
 	background-size: cover;
 	border: 3px solid #0C1027;
-	margin-left: 10px;
 }
 
 #music_genre3
@@ -452,7 +466,6 @@ height: 180px;
 	background-image: url("https://assets.rbl.ms/10606331/origin.jpg");
 	background-size: cover;
 	border: 3px solid #0C1027;
-	margin-left: 10px;
 }
 /*Latest English   */
 
@@ -460,15 +473,15 @@ height: 180px;
 {
     height: 180px;
 	width:100%;
-	margin: 20px;
-	margin-bottom: 20px;	
+	
+		
 }
 
 #song1
 {
-	height: 150px;
-	width:15%;
-	margin-right: 5px;
+	height: 100px;
+	width:12%;
+	
 	vertical-align: top;
 	border: 2.5px solid #0C1027;
 
@@ -476,7 +489,7 @@ height: 180px;
 
 #song1_img
 {
-	height: 160px;
+	height: 100px;
 	width: 100%;
 	border: 2.5px solid #0C1027;
 }
@@ -488,11 +501,12 @@ height: 180px;
 /* Latest Hindi  */
 
 #hindi
-{  margin-top:20px;
-	height: 150px;
-	width:100%;
+{  
+	height: 100px;
+    width:100%;
+    margin-bottom: 100px;
 	
-	margin: 20px;	
+	
 }
 
 
@@ -504,10 +518,10 @@ aside
 {
 	display: inline-block;
 	height: 60rem;
-	width: 23%;
+	width: 30%;
 	margin-top: 20px;
 	vertical-align: top;
-	margin-left: 50px;
+	margin-left: 2%;
 	border: 2.5px solid #0C1027;
 
 }
@@ -618,3 +632,603 @@ aside #song_title
     vertical-align: bottom;
 }
 
+
+/* music progress bar section */
+
+
+.control-icon{
+    height: 22px;
+    width:22px;
+}
+.control-icon:hover{
+    box-shadow: 1px 1px 40px 1px;
+}
+.control-icon-small:hover{
+    box-shadow: 1px 1px 40px 1px;
+}
+
+.control-icon-large:hover{
+    box-shadow: 1px 1px 40px 1px;
+}
+
+#music-player{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: linear-gradient(to right, #114357, #f29492);
+}
+
+#song-info{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    height: 55px;
+    width: 200px;
+    /* border: 1px solid black; */
+}
+
+#current-song-image{
+    height: 45px;
+    width:50px;
+    display: inline-block;
+    position: absolute;
+}
+
+#current-song-name{
+    display:inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    margin: 0px 0px 10px 55px;
+}
+
+#current-singer-name{
+    display:inline-block;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    color: thistle;
+    margin: 25px 0px 5px 55px;
+}
+
+#player-heart-icon{
+    display: inline-block;
+    position: absolute;
+    height: 22px;
+    width:22px;
+    margin:4px 0px 0px 135px;
+}
+#player-heart-icon:hover 
+{
+    box-shadow: 1px 1px 40px 1px;
+}
+#player-dislike-icon{
+    display: inline-block;
+    position: absolute;
+    margin:4px 0px 0px 170px;
+}
+
+#player-block{
+  /* border: 1px solid black; */
+  display: inline-block;
+  margin-left: 20px;
+  height: 80px;
+  width: 715px;
+}
+
+#control-block{
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: relative;
+    margin-left: 175px;
+    height: 40px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+#player-shuffle-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#player-skipstart-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+#player-play-icon{
+    display: inline-block;
+    position: relative;
+    margin-left: 150px;
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+}
+#player-skipend-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 35px;
+    transform: scalex(-1);
+    margin-top: 5px;
+}
+#player-repeat-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 5px;
+}
+
+#track-block{
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 610px;
+    margin-left: 50px;
+    margin-bottom: 8px;
+}
+
+#start-timer{
+    display: inline-block;
+    position: absolute;
+    height: 18px;
+    width: 28px;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    margin-top: -14px;
+    margin-left: 5px;
+    color:black;
+    font-weight: 500;
+}
+
+#full-length{
+    display: inline-block;
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 2px;
+    width: 530px;
+    margin: -2px 5px 0px 40px;
+    border-radius: 2px;
+    background-color: darkgray;
+}
+
+#current-length{
+    display: inline-block;
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 3px;
+    width: 160px;
+    margin: -3px 5px 0px 40px;
+    border-radius: 2px;
+    background-color: #4788c7;
+}
+
+#player-dot-icon{
+    display: inline-block;
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    margin-left: 192px;
+    margin-top: -14px;
+}
+
+#end-timer{
+    display: inline-block;
+    position: absolute;
+    height: 18px;
+    width: 28px;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    margin-top: -14px;
+    margin-left: 578px;
+    color: black;
+    font-weight: 500;
+}
+
+#volume-block{
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: relative;
+    height: 70px;
+    width: 290px;
+    margin-left: 20px;
+}
+
+
+#player-queue-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 16px;
+}
+#player-devices-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 16px;
+}
+#player-sound-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 16px;
+}
+
+#sound-block{
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: absolute;
+    height: 15px;
+    width: 125px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+#start-value{
+    display: inline-block;
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    color: black;
+    margin-top: -5px;
+}
+
+#full-value{
+    display: inline-block;
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    /* border: 1px solid black; */
+    margin-left: 18px;
+    margin-top: 3px;
+    border-radius: 2px;
+    background-color: darkgray;
+}
+
+#current-value{
+    display: inline-block;
+    position: absolute;
+    height: 3px;
+    width: 56px;
+    /* border: 1px solid black; */
+    margin-left: 18px;
+    margin-top: 3px;
+    border-radius: 2px;
+    background-color: #4788c7;
+}
+
+#player-dot-sound-icon{
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: 65px;
+    margin-top: -4px;
+}
+
+#end-value{
+    display: inline-block;
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    color: black;
+    margin-left: 105px;
+    margin-top: -5px;
+}
+
+#player-fullscreen-icon{
+    display: inline-block;
+    position: absolute;
+    margin-left: 265px;
+    margin-top: 16px;
+}
+/*all section rules*/
+section{
+    margin-bottom: 20px;
+}
+/*below these are below media queries....*/
+
+@media screen and (max-width:1338px)
+{
+    #latest-english{
+        width: auto;
+        height: auto;
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width:1285px)
+{
+    #type-container{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:1116px)
+{
+    #station-container{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:1271px)
+{
+    aside{
+        top:500px;
+    }
+
+    #playlist-container{
+        margin-left: 0px;
+        padding-left: 0px;
+	}
+}
+
+@media screen and (max-width:1144px)
+{
+    /*below this is for page header*/
+    #page-header{
+        flex-wrap:wrap;
+    }
+    #fav-heading{
+        display: none;
+    }
+    #dj-icon{
+        height:80px;
+        width:80px;
+        margin-left:10px;
+        margin-top:-5px
+    }
+    #search-container{
+        margin-left:20px;
+    }
+    #notifications{
+        margin-left: 20px;
+    }
+    #user-icon{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    #search-box{
+        width:150px;
+    }
+    .like-icon{
+        display: none;
+    }
+}
+@media screen and (max-width:1050px)
+{    
+    /*below this is for cover images*/
+    #topcover1{
+        display: none;
+        height:0;
+        width:0;
+    }
+    #topcover3{
+        display: none;
+        height:0;
+        width:0;
+    }
+    #topcover2 , #maincover{
+        width:600px;
+        margin-left:10px;
+    }
+
+    /*below this is for popular artists*/
+
+    #popular-artists{
+        margin-left:10px;
+        margin-top: 100px;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:893px)
+{
+    #latest-english{
+        width: auto;
+        height: auto;
+        margin-top: 275px;
+    }
+}
+
+@media screen and (max-width:694px)
+{
+    #control-block{
+        margin-left:0px;
+    }
+    #track-block{
+        margin-left: 0px;
+        margin-top: 10px
+    }
+
+    #full-length{
+        width:360px;
+    }
+
+    #current-length{
+        width:160px;
+    }
+    #end-timer{
+        margin-left: 405px;
+    }
+}
+
+@media screen and (max-width:669px)
+{
+
+    #station-container{
+        margin-top:100px;
+    }
+
+    #popular-artists{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    body{
+        font-size: 15px;
+    }
+    #page-header{
+        flex-wrap:wrap;
+    }
+    #fav-heading{
+        display: none;
+    }
+    #dj-icon{
+        height:60px;
+        width:60px;
+        margin-left:10px;
+        margin-top:-5px
+    }
+    #search-container{
+        margin-left:20px;
+    }
+    #notifications{
+        margin-left: 20px;
+    }
+    #user-icon{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    #search-box{
+        width:100px;
+    }
+
+
+    /*now queries for album cover*/
+
+    #album-cover{
+        margin-left:0px;
+    }
+
+    /*now queries for cover images*/
+    #topcover1{
+        display: none;
+        height:0;
+        width:0;
+    }
+    #topcover3{
+        display: none;
+        height:0;
+        width:0;
+    }
+    #topcover2 , #maincover{
+        width:400px;
+        margin-left:10px;
+    }
+
+    /*now queries for latest-release*/
+
+    #latest-release{
+        margin-left:10px;
+        margin-top: -40px;
+    }
+
+    /*now queries for popular artists*/
+
+    #popular-artists{
+        margin-left:10px;
+        margin-top: 100px;
+    }
+
+    #artists-container{
+        margin-top:0px;
+        margin-bottom: 100px;
+    }
+    #artists-box{
+        width:80px;
+    }
+    /*station container*/
+    
+    #station-container{
+        margin-left:20px;
+        margin-top: 570px;
+    }
+
+    /*type container rules below*/
+
+    #type-container{
+        margin-top:350px;
+        margin-left:20px;
+    }
+
+    /*latest english section*/
+
+    #latest-english-section{
+        margin-top:300px;
+        margin-left:20px;
+    }
+
+    /*latest hindi section*/
+
+    #latest-english-section{
+        margin-top:300px;
+        margin-left:20px;
+    }
+
+    /*music player*/
+    #music-player{
+        /* margin-top: 500px; */
+        margin-left: 0px;
+        justify-content: flex-start;
+    }
+
+    #control-block{
+        margin-left:0px;
+    }
+
+    #track-block{
+        margin-left: -30px;
+        margin-top: 10px
+    }
+
+    #full-length{
+        width:360px;
+    }
+
+    #current-length{
+        width:160px;
+    }
+    #end-timer{
+        margin-left: 405px;
+    }
+
+    /*now we will apply style to playlist queue*/
+    aside{
+        top:500px;
+    }
+    
+    #select-div, #select-box{
+        display: none;
+    }
+
+    #playlist-container{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .like-icon , .artist-name{
+        display: none;
+    }
+}
+
+@media screen and (max-width:584px)
+{
+    #station-container{
+        margin-top:-90px
+    }
+    
+}

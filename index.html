@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Postion</title>
-	<link rel="stylesheet" type="text/css" href="postion_example.css">  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="index.css">  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
 
@@ -11,7 +11,7 @@
 <!-- Main Header -->
 <div id= "div1" >
 
-	<ul class="horizontal-list">
+	<ul class="header-horizontal-list">
 
 		<li id="header-logo"></li>
 		<li id="header-title" style="text-align: center;"> <p class="title" style="margin: 0px">Rai</p> <p class="title" style="margin: 0px">Studio</p></li>
@@ -37,12 +37,12 @@
 <div id="main-section">
 <div id="div2" >
 
- <img id="main-cover" class="boder_img"src="https://i.pinimg.com/originals/1d/03/20/1d03203298cb2f4771cd2082a79591b4.jpg">
+ <img id="main-cover" class="boder_img"src="./images/cover.png">
  </div>
 
  <!-- Image Section To be Attached -->
 <div id="div3">
-<img id="main_logo" class="boder_img" src="https://c.ndtvimg.com/pt5oiml8_loveratri-youtube_625x300_30_August_18.jpg">
+<img id="main_logo" class="boder_img" src="./images/guilty.jpeg">
  </div>
 
 
@@ -57,17 +57,21 @@
   	<li id="song_info">
 
 
-      <div id="song_img">
-       <img id="img_01" class="boder_img"src="https://c.ndtvimg.com/pt5oiml8_loveratri-youtube_625x300_30_August_18.jpg" >
+      <div id="song_img" class="boder_img" style="background-image: url('./images/beliver.jpeg'); background-size:cover; background-repeat: no-repeat;">
+      
       </div>
 
       <div id="song-name">
-         <p id="name"> Tera Hua</p>
+         <p id="name"> Beliver</p>
          <p id="date"> Aug 21 2019</p>
       </div>
 
       <div id="song-duration">
-     	<i style="margin:20px 0px 10px 10px; color: white;"class="fas fa-ellipsis-h"></i>
+       <i style="margin:20px 0px 10px 10px; color: white;"class="fas fa-ellipsis-h"></i>
+       
+
+
+      </select></i>
 
       		
 
@@ -78,19 +82,20 @@
   	 </li>
   	<li id="song_info">
 
-       <div id="song_img">
-        <img id="img_01" class="boder_img"src="https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/04/18/Pictures/latest-kapoor-girlfriend-shraddha-kapoor-chahunga-still_710f15dc-23fe-11e7-929a-64902ca55664.jpg" >
-    </div>
-
-      <div id="song-name">
-          <p id="name">Phir Bhi</p>
-         <p id="date"> Aug 21 2019</p>
+      <div id="song_img" class="boder_img" style="background-image: url('https://i1.sndcdn.com/artworks-000145437931-n5w58g-t500x500.jpg');background-size:cover;">
+         
       </div>
+    
 
-      <div id="song-duration">
-      	<i style="margin:20px 0px 10px 10px; color: white;"class="fas fa-ellipsis-h"></i>
-      	<p  id="duration">5:40</p>
-      </div>
+    <div id="song-name">
+      <p id="name"> Mirage</p>
+      <p id="date"> Aug 21 2019</p>
+   </div>
+
+   <div id="song-duration">
+     <i style="margin:20px 0px 10px 10px; color: white;"class="fas fa-ellipsis-h"></i>
+     <p  id="duration">5:40</p>
+   </div>
   	 </li>
 
   </ul>
@@ -98,15 +103,15 @@
 
 <div>
   
-  <ul class="horizontal-list  zoomin">
+  <ul class="horizontal-list  " id='latest-release-songs'>
 
   	<li id="song_info">
-       <div id="song_img">
-          <img id="img_01" class="boder_img"src="https://timesofindia.indiatimes.com/thumb/msid-71044192,width-800,height-600,resizemode-4/71044192.jpg" >
+       <div id="song_img" class="boder_img" style="background-size:contain;background-image: url('./images/guilty.jpeg');">
+         
       </div>
 
       <div id="song-name">
-      	 <p id="name"> Pal</p>
+      	 <p id="name"> Guilty</p>
          <p id="date"> Aug 21 2019</p>
       </div>
 
@@ -116,12 +121,13 @@
       </div>
        </li>
   	<li id="song_info">
-        <div id="song_img">
-         <img id="img_01" class="boder_img"src="https://www.filmibeat.com/img/2018/03/baaghi1-1520519124.jpg" >
+      <div id="song_img" class="boder_img" style="background-size:cover;background-image: url('./images/salena.jpeg');">
+         
       </div>
+    
 
       <div id="song-name">
-      	 <p id="name">O sathi>
+      	 <p id="name"> Salena</p>
          <p id="date"> Aug 21 2019</p>
       </div>
 
@@ -142,51 +148,52 @@
 <div id="div5" >
 
 	<p class="title">Popular Artist</p>
-<ul class="horizontal-list zoomin">
+<ul class="horizontal-list ">
 
-	 <a href="Arjeet.html " style="text-decoration: none;color: white"><li id="artist_img" >
+   <a href="coldplay.html" style="text-decoration: none;color: white">
+    <li id="artist_img" >
 	 	
-	 	<img class="boder-img zoomin"src="https://hindish.com/wp-content/uploads/2017/05/arijit-singh-feature.jpg">
+	 	<img class="boder-img "src="https://hindish.com/wp-content/uploads/2017/05/arijit-singh-feature.jpg">
 
-	 </li></a>
-	 <a href="Arjeet.html " style="text-decoration: none;color: white"><li id="artist_img"  >
+   </li>
+  </a>
+   <a href="coldplay.html" style="text-decoration: none;color: white">
+    <li id="artist_img"  >
 	 	<img class="boder-img "src="https://www.rockandpop.cl/wp-content/uploads/2018/11/1481536340_152263_1481536622_noticia_normal-400x360.jpg">
-	 </li></a>
-	 <a href="Arjeet.html " style="text-decoration: none;color: white"><li id="artist_img" >
+   </li>
+  </a>
+   <a href="coldplay.html" style="text-decoration: none;color: white">
+    <li id="artist_img" >
 		     
-      	 	<img class="boder-img "src="https://m.media-amazon.com/images/M/MV5BODE2NDJjNWQtMzkxYi00OTVjLTk2MTktMjk1NWVhN2VjNWE1XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SY1000_CR0,0,726,1000_AL_.jpg">
+      	 	<img class="boder-img "src="./images/salena.jpeg">
 
-	</li> </a>
-	 <a href="Arjeet.html " style="text-decoration: none;color: white"><li id="artist_img" >
+  </li> 
+</a>
+	 <a href="coldplay.html" style="text-decoration: none;color: white"><li id="artist_img" >
 		    
  	 	<img class="boder-img "src="https://smedia2.intoday.in/aajtak/images/stories/012015/ankit_tiwari_650_011115062507.jpg">
 
 	</li></a>
-	 <a href="Arjeet.html " style="text-decoration: none;color: white"><li id="artist_img">
+	 <a href="coldplay.html" style="text-decoration: none;color: white"><li id="artist_img">
 			 	<img class="boder-img "src="http://content.hungama.com/artist/profile%20image/300x300%20jpeg/5978395998.jpg">
     
 
 	</li></a>
 
-	 <a href="Arjeet.html " style="text-decoration: none;color: white"><li id="artist_img">
-		    
-	 	<img class="boder-img "src="https://pbs.twimg.com/profile_images/1063395785314836480/2Opw3f5G_400x400.jpg">
-
-	</li></a>
+	
 
 
 </ul>
 
 <!-- Name of Artiest Section -->
 
-<ul class="horizontal-list s" style="width:100%;height: 30px">
-	<li style="height: 100%;width: 15%"> <p class="artiest-name">Arjeet Singh </p></li>
-	<li style="height: 100%;width: 15%"> <p class="artiest-name"> 
+<ul class="horizontal-list s" style="width:100%;height: 30px ;margin-bottom: 20px;">
+	<li style="height: 100%;width: 17%"> <p class="artiest-name">Arjeet Singh </p></li>
+	<li style="height: 100%;width: 17%"> <p class="artiest-name"> 
        ColdPlay </p></li>
-	<li style="height: 100%;width: 15%"> <p class="artiest-name">	Sunidhi Chauhan </p></li>
-	<li style="height: 100%;width: 15%"> <p class="artiest-name"> Ankit Tiwari </p></li>
-	<li style="height: 100%;width: 15%"> <p class="artiest-name"> Udit Narayan </p></li>
-	<li style="height: 100%;width: 15%"> <p class="artiest-name"> Shreya Ghosal </p></li>
+	<li style="height: 100%;width: 17%"> <p class="artiest-name">	Salena </p></li>
+	<li style="height: 100%;width: 17%"> <p class="artiest-name"> Ankit Tiwari </p></li>
+	<li style="height: 100%;width: 17%"> <p class="artiest-name"> Udit Narayan </p></li>
 
 </div>
 
@@ -517,6 +524,48 @@
 
 	</aside>
 
-<div id="play-progress">hwwsq;odfiqeg'o </div>
+  <div id="music-player">
+    <div id="song-info">
+        <img id="current-song-image" src="https://i1.sndcdn.com/artworks-000145437931-n5w58g-t500x500.jpg"/>
+        <span id="current-song-name">Mirag</span>
+        <span id="current-singer-name">Ketty</span>
+        <img src="https://img.icons8.com/ios/32/000000/like.png" id="player-heart-icon"/>
+        <img src="https://img.icons8.com/ios-glyphs/24/000000/cancel-2.png" class="control-icon" id="player-dislike-icon"/>
+    </div>
+    <div id="player-block">
+        <div id="control-block">
+            <img src="https://img.icons8.com/android/24/000000/shuffle.png" class="control-icon" id="player-shuffle-icon"/>
+            <img src="https://img.icons8.com/android/24/000000/skip-to-start.png" class="control-icon" id="player-skipstart-icon"/>
+            <img src="https://img.icons8.com/cotton/64/000000/circled-play.png" class="control-icon-large" id="player-play-icon"/>
+            <!-- <img src="https://img.icons8.com/cotton/64/000000/circled-pause.png" class="control-icon-large" id="player-pause-icon"/>   to use after button click -->
+            <img src="https://img.icons8.com/android/24/000000/skip-to-start.png" class="control-icon" id="player-skipend-icon"/> <!--to flip and use for skip to end -->
+            <img src="https://img.icons8.com/android/24/000000/repeat.png" class="control-icon" id="player-repeat-icon"/>
+        </div>
+        <div id="track-block">
+            <span id="start-timer">1:00</span>
+            <div id="full-length">
+            </div>
+            <div id="current-length">
+            </div>
+            <img src="https://img.icons8.com/ultraviolet/40/000000/circled-dot.png" class="control-icon-small" id="player-dot-icon"/>
+            <span id="end-timer">4:00</span>
+        </div>
+    </div>
+    <div id="volume-block">
+        <img src="https://img.icons8.com/ios/50/000000/personal-video-recorder-menu.png" class="control-icon" id="player-queue-icon"/>
+        <img src="https://img.icons8.com/ios-glyphs/24/000000/multiple-devices.png" class="control-icon" id="player-devices-icon"/>
+        <img src="https://img.icons8.com/ios/50/000000/room-sound.png" class="control-icon" id="player-sound-icon"/>
+        <div id="sound-block">
+            <span id="start-value">1</span>
+            <div id="full-value">
+            </div>
+            <div id="current-value">
+            </div>
+            <img src="https://img.icons8.com/ultraviolet/40/000000/circled-dot.png" class="control-icon-small" id="player-dot-sound-icon"/>
+            <span id="end-value">10</span>
+        </div>
+        <img src="https://img.icons8.com/material-sharp/50/000000/full-screen.png" class="control-icon" id="player-fullscreen-icon"/>
+    </div>
+</div>
 </body>
 </html>
